@@ -32,6 +32,7 @@ print(os.getenv("DETA_PROJECT_KEY"))
 space new
 ```
 Then follow the instructions...
+
 4- Configure the `Spacefile`:
 You then need to configure the `Spacefile` in order to tell Deta how to run your project, the most important pieces are:
 - `run`: which tells Deta how to run your project
@@ -68,6 +69,8 @@ Once you've finished creating your project you can run it using the following co
 space push
 ```
 Then open the preview link you see in the console (it looks like `https://{PROJECT-NAME}-{RANDOM-HASH}.deta.app`).
+P.S. Don't forget to create `requirements.txt` with your dependencies before pushing to the cloud.
+
 
 6- Publish a release (Optional):
 If you want to share your project with Deta community run this command:
